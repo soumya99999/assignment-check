@@ -50,11 +50,7 @@ python manage.py migrate
 Create a `.env` file in the backend directory with necessary environment variables:
 ```bash
 # Example .env file
-SECRET_KEY=your-secret-key-here
-DEBUG=True
-DATABASE_URL=postgresql://user:password@localhost:5432/db_name
-REDIS_URL=redis://localhost:6379/0
-GEMINI_API_KEY=your-gemini-api-key
+GOOGLE_API_KEY=your-secret-key-here
 ```
 
 ## 5. Install Tesseract OCR (Required for PDF processing)
