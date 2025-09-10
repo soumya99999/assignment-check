@@ -1,0 +1,20 @@
+# Robots.txt for Assignment Checker Project
+# This file tells web crawlers which parts of the site they can access
+
+# Allow all crawlers by default, but disallow sensitive areas
+User-agent: *
+Disallow: /admin/
+Disallow: /teacher/
+Disallow: /student/
+Disallow: /auth/
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /classroom/private/
+
+# Allow access to public pages
+Allow: /
+Allow: /about
+Allow: /contact
+
+# Sitemap (uncomment and update when you have a sitemap)
+# Sitemap: https://yourdomain.com/sitemap.xml
